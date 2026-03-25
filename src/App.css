@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0f172a, #1e293b);
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+input, select {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 80%;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #3b82f6;
+  color: white;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2563eb;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #334155;
+}
+
+th {
+  background: #0f172a;
+}
+
+.status-pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.status-progress {
+  color: yellow;
+  font-weight: bold;
+}
+
+.status-resolved {
+  color: lightgreen;
+  font-weight: bold;
+}
